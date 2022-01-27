@@ -39,10 +39,10 @@ Globals:
 #          - Fn::ImportValue: AdiChf-SubnetsPrivate
     VpcConfig:
       SecurityGroupIds:
-        - sg-076b444f1bf156d23
+        - sg-39b9db00
       SubnetIds:
-        - subnet-0e26a660b5f9e164f
-        - subnet-0a92690d218bcaae0          
+        - subnet-7f039471
+        - subnet-88d0bdc5          
                 
 Resources:
   ListInstitutionsFunction:
